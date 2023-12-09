@@ -21,6 +21,7 @@ void main() {
         loginRoute: (context) => const LoginView(),
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
+        verifyEmailRoute: (route) => const VerifyEmailView(),
       },
     ),
   );
@@ -102,7 +103,9 @@ class _NotesViewState extends State<NotesView> {
   }
 }
 
-Future<bool> showLogoutDialog(BuildContext context) {
+Future<bool> showLogoutDialog(
+  BuildContext context,
+) {
   return showDialog<bool>(
     context: context,
     builder: (context) {
