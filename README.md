@@ -9,13 +9,13 @@
 ## 📖 Table of Contents
 
 - [🔎 Overview](#-overview)
-- [👨‍💻 Teck Stack](#-teck-stack)
+- [👨‍💻 Tech Stack](#-tech-stack)
 
 ## 🔎 Overview
 
 MyNotes is a simple note-taking mobile app for iOS and Android that allows you to create, edit and delete notes. It is developed with Flutter and Firebase.
 
-## 👨‍💻 Teck Stack
+## 👨‍💻 Tech Stack
 
 - Frontend
 
