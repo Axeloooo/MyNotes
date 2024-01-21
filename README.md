@@ -29,3 +29,7 @@ MyNotes is a simple note-taking mobile app for iOS and Android that allows you t
 - Database
 
   ![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=SQLite&logoColor=white)
+
+- CI/CD
+
+  ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF.svg?style=for-the-badge&logo=GitHub-Actions&logoColor=white)
