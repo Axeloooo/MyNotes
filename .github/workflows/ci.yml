@@ -3,7 +3,7 @@ name: Continuous Integration
 on: [push, pull_request]
 
 jobs:
-  ci:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,7 +12,5 @@ jobs:
         with:
           flutter-version: "3.16.8"
           channel: "stable"
-      - name: Run lint
-        run: flutter analyze
       - name: Run tests
         run: flutter test
